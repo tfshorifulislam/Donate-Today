@@ -17,3 +17,33 @@
     font-style: normal;
 }
 
+.btn{
+
+}
+
+.flex{
+    display: flex;
+}
+
+.heading{
+
+}
+
+.description{
+
+}
+
+
+/* main style */
+
+
+/* header related style */
+header{
+    background-image: linear-gradient(to top,rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 0) 100%), url(../images/donate.png);
+    max-width: 1440px;
+    height: 669px;
+    margin: 0 auto;
+    padding: 174px 307px;
+}
+
+
