@@ -7,8 +7,6 @@
 .primary-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
 }
 
 .secondary-font{
@@ -18,7 +16,13 @@
 }
 
 .btn{
-
+    font: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5959;
 }
 
 .flex{
@@ -46,4 +50,27 @@ header{
     padding: 174px 307px;
 }
 
+.header-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+header>div>h1{
+    font-size:4rem;
+    font-weight:700 ;
+    margin-bottom:1.2rem ;
+    color: white;
+    text-align: center;
+    max-width: 826px;
+
+}
+
+header>div>p{
+    font-size:1rem;
+    margin-bottom:2rem ;
+    color: white;
+    text-align: center;
+    max-width: 691px;
+    line-height: 1.8rem;
+}
