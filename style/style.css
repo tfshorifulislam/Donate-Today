@@ -131,3 +131,36 @@ header>div>p{
     opacity: 20%;
 }
 
+.donate-plan>p{
+    max-width: 691px;
+    margin: 0 auto;
+}
+
+.donate-plan-card{
+    justify-content: space-between;
+    max-width: 1128px;
+    margin: 0 auto;
+
+}
+.card-info{
+    max-width: 360px;
+    background-color:rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin: 50px 0 130px 0;
+    padding: 83px 22px 54px 23px;
+}
+
+.card-info h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 1rem;
+}
+
+.card-info img{
+        margin-bottom: 2rem;
+}
+
+.bg-color{
+    background-color: #FFF4D6;
+}
