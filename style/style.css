@@ -9,6 +9,13 @@
     font-optical-sizing: auto;
 }
 
+
+.lobster-regular{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .secondary-font{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -214,4 +221,59 @@ header>div>p{
 .survive-container p{
     text-align: start;
     margin-bottom: 1.2rem;
+}
+
+.update{
+    max-width: 809px;
+    margin-bottom: 130px;
+    margin: 0 auto;
+ 
+}
+.update>p{
+    max-width: 691px;
+    margin: 0 auto;
+}
+
+.input-container{
+    margin-top: 50px;
+    padding: 76px 188px;
+    background-color: #FFF4D6;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 14px 218px 14px 17px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #AA9F9F;
+    line-height: 20px;
+}
+
+.input-container .btn{
+    border-radius: 0 5px 5px 0px;
+}
+
+
+footer{
+    margin-top: 130px;
+    background-color: #0B0D17;
+    padding: 43px 641px;
+    text-align: center;
+}
+
+footer>h3{
+    color: #FF5959;
+    font-size: 2.3rem;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+footer>p{
+    color: white;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #D9DBE1;
 }
